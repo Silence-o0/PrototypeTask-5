@@ -13,16 +13,19 @@ namespace PrototypeFigure
             IFigure figure = new Rectangle(10, 20);
             IFigure clonedFigure = figure.Clone();
             figure.GetInfo();
+            Console.WriteLine("Копія фігури:");
             clonedFigure.GetInfo();
 
             figure = new Circle(15);
             clonedFigure = figure.Clone();
             figure.GetInfo();
+            Console.WriteLine("Копія фігури:");
             clonedFigure.GetInfo();
 
             figure = new Triangle(3,4,5);
             clonedFigure = figure.Clone();
             figure.GetInfo();
+            Console.WriteLine("Копія фігури:");
             clonedFigure.GetInfo();
             Console.Read();
         }
